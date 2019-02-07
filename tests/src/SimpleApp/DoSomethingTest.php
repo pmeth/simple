@@ -9,7 +9,7 @@ class DoSomethingTest extends TestCase
 
     public function setUp()
     {
-        $this->subject = new DoSomething;
+        $this->subject = new DoSomething();
     }
 
     public function testDoSomething()
