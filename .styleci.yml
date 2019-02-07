@@ -2,6 +2,7 @@ preset: recommended
 
 enabled:
   - concat_with_spaces
+  - native_function_casing
 
 disabled:
   - no_multiline_whitespace_before_semicolons # Allow to put semicolons on a line after the last parenthesis
